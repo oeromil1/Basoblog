@@ -1,14 +1,16 @@
 import type { Metadata } from "next";
 import { Mooli } from "next/font/google";
-import "./globals.css";
-import Navbar from "@/components/navbar";
 import { Providers } from "@/components/providers";
+
+import Navbar from "@/components/navbar";
+import "./globals.css";
 
 const mooli = Mooli({
   weight: "400",
   subsets: ["latin"],
   display: "swap",
 });
+
 export const metadata: Metadata = {
   title: "Basomil News",
   description: "Latest News by Basomil",
@@ -21,8 +23,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/logo13.png" />
+      </head>
+
       <body
-        className={` ${mooli.className} bg-white text-black dark:bg-gray-900 dark:selection:bg-gray-900 dark:text-white h-full selection:bg-gray-50`}
+        className={`${mooli.className} bg-white text-black dark:bg-gray-900 dark:selection:bg-gray-900 dark:text-white h-full selection:bg-gray-50`}
       >
         <Providers>
           <Navbar />
