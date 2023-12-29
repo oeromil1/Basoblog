@@ -4,10 +4,10 @@ import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
 
 export default defineConfig({
-  name: 'Basomil',
-  title: 'Basomil',
+  name: 'Basomil Blog',
+  title: 'Basomil Blog where you get to know about Basomil and the oil and gas industry',
 
-  projectId: 'iid5m96j',
+  projectId: 'uzd5ohrx',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],

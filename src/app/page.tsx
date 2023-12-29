@@ -11,7 +11,8 @@ async function getData() {
 }
 
 export default async function Home() {
-  const data = (await getData()) as Post[];
+  const data = (await getData()) as Post;
+  console.log(data);
 
   return (
     <div className="divide-y divide-gray-200 dark:divide-gray-700">
