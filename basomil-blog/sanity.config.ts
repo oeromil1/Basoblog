@@ -5,7 +5,7 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'Basomil Blog',
-  title: 'Basomil Blog where you get to know about Basomil and the oil and gas industry',
+  title: 'Where you get to know about Basomil and the oil and gas industry',
 
   projectId: 'uzd5ohrx',
   dataset: 'production',
