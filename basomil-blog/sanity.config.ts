@@ -4,8 +4,8 @@ import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
 
 export default defineConfig({
-  name: 'Basomil Blog',
-  title: 'Where you get to know about Basomil and the oil and gas industry',
+  name: 'default',
+  title: 'Basomil',
 
   projectId: 'uzd5ohrx',
   dataset: 'production',
