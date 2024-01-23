@@ -25,9 +25,9 @@ export default async function SlugPage({
         <Image
           src={urlFor(value).url()}
           alt="Image"
-          className="rounded-lg"
-          width={800}
-          height={800}
+          className="rounded-lg py-3"
+          width={500}
+          height={500}
         />
       ),
     },
