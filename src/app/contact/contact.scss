@@ -17,19 +17,14 @@
 }
 
 .contact {
-    height: auto;
+    height: full;
+    max-width: 1000px;
     margin: auto;
     display: flex;
     align-items: center;
-    justify-items: center;
-    gap: 10px;
+    gap: 30px;
 
     @include mobile {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .mobile {
         width: 100%;
         padding: 10px;
         flex-direction: column;
@@ -39,10 +34,10 @@
         flex: 1;
         display: flex;
         flex-direction: column;
-        gap: 40px;
+        gap: 20px;
 
         @include mobile {
-            gap: 20px;
+            gap: 10px;
             text-align: center;
             align-items: center;
             margin-top: 70px;
@@ -50,7 +45,7 @@
 
         h1 {
             font-size: 50px;
-            line-height: 100px;
+            line-height: 88px;
 
             @include mobile {
                 font-size: 36px;
@@ -73,7 +68,7 @@
 
 
         .phoneSvg {
-            stroke: gold;
+            stroke: orange;
             position: absolute;
             margin: auto;
             z-index: -1;
@@ -82,14 +77,14 @@
         form {
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 10px;
 
             input,
             textarea {
-                padding: 20px;
+                padding: 10px;
                 background-color: transparent;
-                border: 1px solid white;
-                color: white;
+                border: 1px solid gold;
+                color: gray;
                 border-radius: 5px;
 
                 @include mobile {
@@ -98,11 +93,12 @@
             }
 
             button {
-                padding: 20px;
+                padding: 10px;
                 border: none;
-                background-color: gold;
+                background-color: orange;
                 cursor: pointer;
                 font-weight: 500;
+                border-radius: 5px;
 
                 @include mobile {
                     padding: 10px;

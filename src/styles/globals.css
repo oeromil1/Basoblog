@@ -2,3 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+.serve1 {
+    background-image: url(../../public/oil6.jpg), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-blend-mode: overlay;
+}
+
+.serve2 {
+    background-image: url(../../public/oil5.jpg), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-blend-mode: overlay;
+}
+
+.serve3 {
+    background-image: url(../../public/oil4.jpg), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-blend-mode: overlay;
+}
+
+.serve4 {
+    background-image: url(../../public/oil3.jpg), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-blend-mode: overlay;
+}
+
+.serve5 {
+    background-image: url(../../public/oil2.jpg), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-blend-mode: overlay;
+}
+
+
+.serve6 {
+    background-image: url(../../public/oil10.jpg), linear-gradient(rgb(8, 36, 94), rgba(0, 0, 0, 0.5));
+    background-blend-mode: overlay;
+}

@@ -3,14 +3,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import { FaCaretUp } from "react-icons/fa6";
+import { FaCaretUp, FaCaretDown } from "react-icons/fa6";
 
 const Navbar: React.FC = () => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   const [isOpen, setIsOpen] = React.useState(false);
 
   return (
-    <nav className="relative flex flex-wrap items-center justify-between py-3 bg-transparent mb-3">
+    <nav className="relative flex flex-wrap items-center justify-between py-4 bg-transparent mb-2">
       <div className="container  mx-auto flex flex-wrap items-center justify-between">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <Link href="/">
@@ -18,8 +18,8 @@ const Navbar: React.FC = () => {
               src="/logo1.png"
               className="h-auto w-auto -ml-10"
               alt="Basomil Logo"
-              width={250}
-              height={250}
+              width={350}
+              height={350}
             />
           </Link>
           <button
@@ -56,9 +56,10 @@ const Navbar: React.FC = () => {
         <div
           className={
             "lg:flex flex-grow items-center" +
-            (navbarOpen ? " flex" : " hidden")
+            (navbarOpen
+              ? " flex-col items-center justify-center px-9"
+              : " hidden")
           }
-          id="example-navbar-danger"
         >
           <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
             <li className="">
@@ -86,12 +87,33 @@ const Navbar: React.FC = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                href="/team"
+              <button
+                onClick={() => setIsOpen((prev) => !prev)}
                 className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-blue-700 hover:opacity-75"
               >
                 <span className="ml-2">Who We Are</span>
-              </Link>
+                {isOpen ? (
+                  <FaCaretUp className="ml-2" />
+                ) : (
+                  <FaCaretDown className="ml-2" />
+                )}
+              </button>
+              {isOpen && (
+                <div className="bg-transparent md:top-20 absolute p-2">
+                  <Link
+                    href="/management"
+                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-blue-700 hover:opacity-75"
+                  >
+                    Management
+                  </Link>
+                  <Link
+                    href="/consultants"
+                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-blue-700 hover:opacity-75"
+                  >
+                    Consultants
+                  </Link>
+                </div>
+              )}
             </li>
             <li className="nav-item">
               <Link
