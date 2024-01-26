@@ -87,28 +87,28 @@ const Contact = () => {
             className="item flex gap-2 items-center justify-start"
             variants={variants}
           >
-            <FaEnvelope className="text-gold" />
+            <FaEnvelope className="text-gold2" />
             <span>info@basomil.com</span>
           </motion.div>
           <motion.div
             className="item flex gap-2 items-center justify-start"
             variants={variants}
           >
-            <FaLocationDot className="text-gold" />
+            <FaLocationDot className="text-gold2" />
             <span>The Woodlands, TX. USA</span>
           </motion.div>
           <motion.div
             className="item flex gap-2 items-center justify-start"
             variants={variants}
           >
-            <FaPhone className="text-gold" />
+            <FaPhone className="text-gold2" />
             <span>+1 346 2469 891</span>
           </motion.div>
           <motion.div
             className="item flex gap-2 items-center justify-start"
             variants={variants}
           >
-            <FaPhone className="text-gold" />
+            <FaPhone className="text-gold2" />
             <span>+1 281 9397 378</span>
           </motion.div>
         </motion.div>

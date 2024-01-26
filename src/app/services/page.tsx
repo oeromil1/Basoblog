@@ -4,15 +4,15 @@ import React from "react";
 const Services = () => {
   return (
     <div>
-      <div className="serve1 min-h-screen bg-center pt-10 bg-no-repeat bg-cover bg-fixed">
+      <div className="serve1 min-h-screen bg-center bg-no-repeat bg-cover bg-fixed">
         <div>
-          <h1 className="font-bold text-2xl md:text-5xl text-center text-white pt-20">
+          <h1 className="font-bold text-2xl md:text-5xl text-center text-white pt-5">
             Company Overview | Who We Are
           </h1>
         </div>
 
-        <div className=" flex-col mx-16 mt space-y-5 py-5 font-semibold">
-          <p className="text-white capitalize text-lg text-justify">
+        <div className=" flex-col mx-2 md:mx-16 mt space-y-5 pt-5 font-semibold">
+          <p className="text-white text-lg text-justify">
             BASOMIL LLC is a registered company in the state of Texas USA
           </p>
 
@@ -38,6 +38,7 @@ const Services = () => {
           </p>
         </div>
       </div>
+
       <div className="serve2 min-h-screen bg-fixed bg-no-repeat bg-cover">
         <div>
           <h1 className="font-bold text-2xl md:text-5xl text-center text-white py-10">
@@ -45,11 +46,11 @@ const Services = () => {
           </h1>
         </div>
 
-        <h3 className="underline text-white mx-16 text-2xl font-semibold">
+        <h3 className="underline text-white mx-2 md:mx-16 text-2xl font-semibold">
           Asset Acquisition
         </h3>
-        <div className=" flex-col mx-16 space-y-5 font-semibold">
-          <p className="text-white capitalize text-lg text-justify">
+        <div className=" flex-col mx-2 md:mx-16 space-y-5 font-semibold">
+          <p className="text-white  text-lg text-justify">
             At the heart of our operations is the Asset Acquisition team,
             orchestrating strategic growth for our clients in the dynamic
             landscape of Oil & Gas exploration. Charged with identifying and
@@ -64,11 +65,11 @@ const Services = () => {
           </p>
         </div>
 
-        <h3 className="underline text-white mx-16 text-2xl mt-20 font-semibold">
+        <h3 className="underline text-white mx-2 md:mx-16 text-2xl mt-20 font-semibold">
           Geoscience
         </h3>
-        <div className=" flex-col mx-16 space-y-5 font-semibold">
-          <p className="text-white capitalize text-lg text-justify">
+        <div className=" flex-col mx-2 md:mx-16 space-y-5 font-semibold">
+          <p className="text-white  text-lg text-justify">
             Geoscientists at our company play a pivotal role in decoding the
             Earth's subsurface mysteries. Armed with expertise in geology,
             geophysics, and environmental science, our geoscience team employs
@@ -89,11 +90,11 @@ const Services = () => {
           </h1>
         </div>
 
-        <h3 className="underline text-white mx-16 text-2xl font-semibold">
+        <h3 className="underline text-white mx-2 md:mx-16 text-2xl font-semibold">
           Reservoir Engineering
         </h3>
-        <div className=" flex-col mx-16 space-y-5 font-semibold">
-          <p className="text-white capitalize text-lg text-justify">
+        <div className=" flex-col mx-2 md:mx-16 space-y-5 font-semibold">
+          <p className="text-white text-lg text-justify">
             Our Reservoir Engineering team have a solid foundation in all
             aspects of petroleum engineering and technologies used to
             characterize, monitor, and enhance reservoirs. With strong
@@ -107,11 +108,11 @@ const Services = () => {
           </p>
         </div>
 
-        <h3 className="underline text-white mx-16 text-2xl mt-20 font-semibold">
+        <h3 className="underline text-white mx-2 md:mx-16 text-2xl mt-20 font-semibold">
           Drilling
         </h3>
-        <div className=" flex-col mx-16 space-y-5 font-semibold">
-          <p className="text-white capitalize text-lg text-justify">
+        <div className=" flex-col mx-2 md:mx-16 space-y-5 font-semibold">
+          <p className="text-white  text-lg text-justify">
             At the forefront of our technical prowess is our Drilling Division,
             the driving force behind successful Oil & Gas exploration. Merging
             advanced technology with seasoned expertise, our drilling team
@@ -134,11 +135,11 @@ const Services = () => {
           </h1>
         </div>
 
-        <h3 className="underline text-white mx-16 text-2xl font-semibold">
+        <h3 className="underline text-white mx-2 md:mx-16 text-2xl font-semibold">
           Development Planning
         </h3>
-        <div className=" flex-col mx-16 space-y-5 font-semibold">
-          <p className="text-white capitalize text-lg text-justify">
+        <div className=" flex-col mx-2 md:mx-16 space-y-5 font-semibold">
+          <p className="text-white  text-lg text-justify">
             At the forefront of strategic growth, our Development Planning team
             is the architect of success in the Oil & Gas industry. Blending
             technical expertise with visionary planning, our experts craft
@@ -153,11 +154,11 @@ const Services = () => {
           </p>
         </div>
 
-        <h3 className="underline text-white mx-16 text-2xl mt-20 font-semibold">
+        <h3 className="underline text-white mx-2 md:mx-16 text-2xl mt-20 font-semibold">
           Facilities Engineering & Project Management
         </h3>
-        <div className=" flex-col mx-16 space-y-5 font-semibold">
-          <p className="text-white capitalize text-lg text-justify">
+        <div className=" flex-col mx-2 md:mx-16 space-y-5 font-semibold">
+          <p className="text-white  text-lg text-justify">
             At the nexus of innovation and efficiency, our Facilities
             Engineering and Project Management division is the engine driving
             seamless project execution. From conceptualization to commissioning,
@@ -181,11 +182,11 @@ const Services = () => {
           </h1>
         </div>
 
-        <h3 className="underline text-white mx-16 text-2xl font-semibold">
+        <h3 className="underline text-white mx-2 md:mx-16 text-2xl font-semibold">
           Operations and Maintenance
         </h3>
-        <div className=" flex-col mx-16 space-y-5 font-semibold">
-          <p className="text-white capitalize text-lg text-justify">
+        <div className=" flex-col mx-2 md:mx-16 space-y-5 font-semibold">
+          <p className="text-white text-lg text-justify">
             At the heart of operational excellence, our Operations and
             Maintenance team ensures the continuous, reliable performance of Oil
             and Gas facilities. With a strategic blend of technical expertise
@@ -199,11 +200,11 @@ const Services = () => {
           </p>
         </div>
 
-        <h3 className="underline text-white mx-16 text-2xl mt-20 font-semibold">
+        <h3 className="underline text-white mx-2 md:mx-16 text-2xl mt-20 font-semibold">
           Marine Operations
         </h3>
-        <div className=" flex-col mx-16 space-y-5 font-semibold">
-          <p className="text-white capitalize text-lg text-justify">
+        <div className=" flex-col mx-2 md:mx-16 space-y-5 font-semibold">
+          <p className="text-white  text-lg text-justify">
             Navigating the waves of success, our Marine Operations team is the
             backbone of efficient logistics in the Oil and Gas sector. With a
             focus on precision and safety, our experts orchestrate seamless
@@ -225,11 +226,11 @@ const Services = () => {
           </h1>
         </div>
 
-        <h3 className="underline text-white mx-16 text-2xl font-semibold">
+        <h3 className="underline text-white mx-2 md:mx-16 text-2xl font-semibold">
           Safety, Security, Health and Environment (SSHE)
         </h3>
-        <div className=" flex-col mx-16 space-y-5 font-semibold">
-          <p className="text-white capitalize text-lg text-justify">
+        <div className=" flex-col mx-2 md:mx-16 space-y-5 font-semibold">
+          <p className="text-white  text-lg text-justify">
             At the forefront of our commitment to responsibility and excellence
             is our SSHE team. Meticulously dedicated to safeguarding every
             aspect of our operations, they integrate cutting-edge safety
@@ -244,11 +245,11 @@ const Services = () => {
           </p>
         </div>
 
-        <h3 className="underline text-white mx-16 text-2xl mt-20 font-semibold">
+        <h3 className="underline text-white mx-2 md:mx-16 text-2xl mt-20 font-semibold">
           Quality Management
         </h3>
-        <div className=" flex-col mx-16 space-y-5 font-semibold">
-          <p className="text-white capitalize text-lg text-justify">
+        <div className=" flex-col mx-2 md:mx-16 space-y-5 font-semibold">
+          <p className="text-white  text-lg text-justify">
             At the heart of our commitment to excellence is our Quality
             Management team, meticulously ensuring the highest standards across
             every facet of our operations. From project inception to delivery,
@@ -271,11 +272,11 @@ const Services = () => {
           </h1>
         </div>
 
-        <h3 className="underline text-white mx-16 text-2xl  font-semibold">
+        <h3 className="underline text-white mx-2 md:mx-16 text-2xl  font-semibold">
           Contracting and Procurement
         </h3>
-        <div className=" flex-col mx-16 space-y-5 font-semibold">
-          <p className="text-white capitalize text-lg text-justify">
+        <div className=" flex-col mx-2 md:mx-16 space-y-5 font-semibold">
+          <p className="text-white  text-lg text-justify">
             At the core of our operational efficiency lies the Contracting and
             Procurement team, dedicated to orchestrating seamless partnerships
             and optimizing the supply chain for your Oil and Gas projects. With
@@ -290,11 +291,11 @@ const Services = () => {
           </p>
         </div>
 
-        <h3 className="underline text-white mx-16 text-2xl mt-20 font-semibold">
+        <h3 className="underline text-white mx-2 md:mx-16 text-2xl mt-20 font-semibold">
           Financing
         </h3>
-        <div className=" flex-col mx-16 space-y-5 font-semibold">
-          <p className="text-white capitalize text-lg text-justify">
+        <div className=" flex-col mx-2 md:mx-16 space-y-5 font-semibold">
+          <p className="text-white  text-lg text-justify">
             At the nexus of ambition and financial prudence, our Financing team
             drives the economic engine of your Oil and Gas ventures. With a
             strategic blend of financial expertise and industry acumen, our

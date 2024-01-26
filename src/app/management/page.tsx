@@ -10,10 +10,7 @@ const Management = () => {
 
   return (
     <div>
-      <div
-        id="team"
-        className="bg-gradient-to-br from-red-300 via-sky-500 to-purple-900 "
-      >
+      <div className="bg-gradient-to-br from-red-300 via-sky-500 to-purple-900 ">
         <div className="w-full  px-10 pt-10">
           <div className="container mx-auto ">
             <div className="lg:flex gap-20 md:flex sm:flex items-center xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around">
@@ -22,18 +19,18 @@ const Management = () => {
                   <div className="absolute -mt-20 w-full flex justify-center">
                     <div className="h-32 w-32">
                       <Image
-                        src="../assets/Picture1.png"
+                        src="/Picture1.png"
                         alt="Display Picture of Andres Berlin"
                         role="img"
-                        className="rounded-full object-cover h-full w-full shadow-md"
-                        height={50}
-                        width={50}
+                        className="rounded-full object-fit h-full w-full shadow-md"
+                        height={200}
+                        width={200}
                       />
                     </div>
                   </div>
                   <div className="px-6 mt-16">
                     <h1 className="font-bold text-3xl text-center mb-1">
-                      Francis Bassey{" "}
+                      Francis Bassey
                     </h1>
                     <p className="text-gray-800 text-sm text-center">
                       CEO & Cofounder
@@ -55,12 +52,12 @@ const Management = () => {
                   <div className="absolute -mt-20 w-full flex justify-center">
                     <div className="h-32 w-32">
                       <Image
-                        src="../assets/Picture2.jpg"
+                        src="/Picture2.jpg"
                         alt="Display Picture of Silene Tokyo"
                         role="img"
-                        className="rounded-full object-cover h-full w-full shadow-md"
-                        width={50}
-                        height={50}
+                        className="rounded-full object-fit h-full w-full shadow-md"
+                        width={300}
+                        height={300}
                       />
                     </div>
                   </div>

@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import { Mooli } from "next/font/google";
 import "../styles/globals.css";
 import Navbar from "@/container/Navbar";
+import Blob from "@/components/blob";
 
 const mooli = Mooli({
   weight: "400",
   subsets: ["latin"],
-  display: "swap",
+  display: "block",
 });
 
 export const metadata: Metadata = {
@@ -25,9 +26,11 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/logo13.png" />
       </head>
-      <body className={`${mooli.className} mx-auto max-w-6xl bg-transparent`}>
+      <body
+        className={`${mooli.className} bg-gradient-to-r from-gray1 via-gray2 to-gray3 background-animate mx-auto `}
+      >
         <Navbar />
-        <main className="flex flex-col w-full">{children}</main>
+        <main className="flex flex-col mx-auto w-full">{children}</main>
       </body>
     </html>
   );

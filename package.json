@@ -25,7 +25,8 @@
     "react-dom": "^18.2.0",
     "sanity": "^3.23.4",
     "sass": "^1.70.0",
-    "styled-components": "^6.1.6"
+    "styled-components": "^6.1.6",
+    "swiper": "^11.0.5"
   },
   "devDependencies": {
     "@types/node": "^20",

@@ -6,9 +6,7 @@ import React from "react";
 
 const Apply = () => {
   return (
-    <div className="relative h-full w-full overflow-hidden rounded-lg lg:mx-20">
-      <div className="absolute w-full h-full bg-gradient-to-r from-red-200 via-blue-400 to-indigo-600 -top-[50%] -left-[50%] animate-spin-slow origin-bottom-right" />
-      <div className="absolute w-full h-full bg-gradient-to-r from-red-200 via-blue-400 to-indigo-600 -top-[50%] -left-[50%] animate-spin-delay origin-bottom-right" />
+    <div className="relative h-full w-full overflow-hidden rounded-lg">
       <div className="relative inset-0 bg-gold rounded-lg z-10 m-1">
         <form
           className="p-2 rounded-md z-20 max-sm:flex-auto"

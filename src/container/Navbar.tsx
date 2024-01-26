@@ -10,13 +10,13 @@ const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = React.useState(false);
 
   return (
-    <nav className="relative flex flex-wrap items-center justify-between py-4 bg-transparent mb-2">
-      <div className="container  mx-auto flex flex-wrap items-center justify-between">
-        <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+    <nav className="relative flex flex-wrap items-center justify-between py-2 bg-transparent">
+      <div className="container mx-auto flex flex-wrap items-center justify-between">
+        <div className="w-full flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <Link href="/">
             <Image
               src="/logo1.png"
-              className="h-auto w-auto -ml-10"
+              className="h-auto w-auto -ml-[70px]"
               alt="Basomil Logo"
               width={350}
               height={350}

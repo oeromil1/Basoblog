@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -17,7 +18,7 @@ const Partners = () => {
         <div className="container mx-auto">
           <div className="lg:flex md:flex sm:flex items-center xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around">
             <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
-              <div className="rounded mx-4 overflow-hidden shadow-md bg-white">
+              <div className="rounded mx-4 overflow-hidden shadow-md bg-transparent">
                 <div className="absolute -mt-20 w-full flex justify-center">
                   <Link href="https://www.sispro.gy/" className="">
                     <Image
@@ -46,9 +47,9 @@ const Partners = () => {
               </div>
             </div>
 
-            <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
-              <div className="rounded mx-4 overflow-hidden shadow-md bg-white">
-                <div className="absolute -mt-20 w-full flex justify-center">
+            <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-20 sm:mb-24 xl:max-w-sm lg:w-2/5">
+              <div className="rounded mx-4 overflow-hidden shadow-md bg-transparent">
+                <div className="absolute -mt-[60px] w-full flex justify-center">
                   <Link href="https://www.megayieldcs.com/" className="">
                     <Image
                       src="/megayield.webp"
@@ -77,8 +78,8 @@ const Partners = () => {
             </div>
 
             <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
-              <div className="rounded mx-2 overflow-hidden shadow-md bg-white">
-                <div className="absolute -mt-20 w-full flex justify-center">
+              <div className="rounded mx-2 overflow-hidden shadow-md bg-transparent">
+                <div className="absolute -mt-[60px] w-full flex justify-center">
                   <Link href="https://crexobas.org" className="">
                     <Image
                       src="/crexobas.jpg"
